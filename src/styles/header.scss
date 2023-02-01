@@ -7,12 +7,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    background-color: $first;
+    background-color: $second;
     top: 0%;
     z-index: 10;
+    opacity: 0.9;
 
-    >h1{
-        text-transform: uppercase;
+
+    >img{
+        width: 10%;
     }
 
     >main{
@@ -21,7 +23,7 @@ nav{
         justify-content: flex-end;
 
         >a{
-        color: $dark;
+        color: $first;
         margin: 1rem;
 
         &:hover{
