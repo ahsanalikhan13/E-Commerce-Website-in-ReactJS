@@ -1,17 +1,23 @@
 import React from 'react'
 import vg from '../assets/2.webp';
+import{
+  AiFillGoogleCircle, 
+  AiFillAmazonCircle, 
+  AiFillInstagram, 
+  AiFillYoutube} 
+  from 'react-icons/ai';
 
 const Home = () => {
   return (
     <>
-      <div className='home'>
+      <div className='home' id='home'>
       <main>
         <h1>HOME PAGE</h1>
         <p>This is a paragraph tag for HOME page</p>
       </main>
       </div>
    
-    <div className='home2'>
+    <div className='home2' id='about'>
       <img src={vg} alt= "graphics"/>
 
       <div>
@@ -22,10 +28,49 @@ const Home = () => {
 
     </div>
 
-    <div className='home3'>
+    <div className='home3' id='brands'>
       <div>
         <h1>Who we are?</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+
+    <div className="home4" id='services'>
+      <div>
+        <h1>Brands</h1>
+        <article>
+          <div 
+            style={{ 
+              animationDelay: "0.3s"
+              }}>
+            <AiFillGoogleCircle/>
+            <p>Google</p>
+          </div>
+
+          <div 
+            style={{ 
+              animationDelay: "0.5s"
+              }}>
+            <AiFillAmazonCircle/>
+            <p>Amazon</p>
+          </div>
+
+          <div 
+            style={{ 
+              animationDelay: "0.7s"
+              }}>
+            <AiFillInstagram/>
+            <p>Instagram</p>
+          </div>
+
+          <div 
+            style={{ 
+              animationDelay: "0.9s"
+              }}>
+            <AiFillYoutube/>
+            <p>Youtube</p>
+          </div>
+        </article>
       </div>
     </div>
     </>
