@@ -17,25 +17,23 @@ const Home = () => {
       </main>
       </div>
    
-    <div className='home2' id='about'>
+    <div className='home2'>
       <img src={vg} alt= "graphics"/>
-
       <div>
         <p>
           We are your one and only solution to the tech problems you face everyday. We are leading the tech team whose aim is to increase the problem solving ability in children.
         </p>
       </div>
-
     </div>
 
-    <div className='home3' id='brands'>
+    <div className='home3' id='about'>
       <div>
         <h1>Who we are?</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       </div>
     </div>
 
-    <div className="home4" id='services'>
+    <div className="home4" id='brands'>
       <div>
         <h1>Brands</h1>
         <article>

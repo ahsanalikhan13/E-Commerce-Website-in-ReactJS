@@ -86,7 +86,7 @@
         >div{
             width: 70%;
             height: 100vh;
-            background-color: $first;
+            background-color: $third;
             border-radius: 0 200px 200px 0;
             display: flex;
             flex-direction: column;
@@ -100,7 +100,7 @@
                 border-bottom: 2px solid $dark;
                 padding: 1rem;
                 width: 15rem;
-                color: $dark;
+                color: $first;
             }
             >p{
                 padding: 3rem;
@@ -108,6 +108,7 @@
                 word-spacing: 5px;
                 line-height: 170%;
                 font: italic 100 1.2rem $text2;
+                color: $first;
             }
         }
         }
