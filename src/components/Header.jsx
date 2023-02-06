@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import svg from '../assets/logo.png';
-// import { HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   return (
@@ -9,14 +9,14 @@ const Header = () => {
         <img className='img' src={svg} alt= "Logo"/>;
 
         <main>
-            <Link smooth to={"/#home"}>Home</Link>
-            <Link smooth to={"/contact"}>Contact</Link>
-            <a href={"/#about"}> About</a>
-            <a href={"/#brands"}>Brands</a>
-            <a href={"/#services"}>Services</a>
+            <HashLink to={"/#home"}>Home</HashLink>
+            <Link to={"/contact"}>Contact</Link>
+            <HashLink to={"/#about"}> About</HashLink>
+            <HashLink to={"/#brands"}>Brands</HashLink>
+            <HashLink to={"/services"}>Services</HashLink>
         </main>
     </nav>
   )
 }
 
-export default Header
+export default Header;
