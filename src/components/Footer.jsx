@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import '../styles/footer.scss';
 
-const Footer = () => {
-  return(
+const Footer=() => {
+    return(
     <footer>
         <div>
             <h1>Disclaimer</h1>
@@ -18,5 +19,4 @@ const Footer = () => {
     </footer>
     )
 }
-
-export default Footer
+export default Footer;

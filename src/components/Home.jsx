@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import vg from '../assets/2.webp';
 import{
   AiFillGoogleCircle, 
